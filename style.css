@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+@font-face {
+  font-family: 'Norse';
+  src: url('font/Norse.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+aside {
+    background-image: url('image/halie.jpg');
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.logo {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    gap: 10px;
+    background-color: #75757571;
+}
+
+.logo img {
+    width: 50px;
+    height: 90px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Norse', sans-serif;
+}
+
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
