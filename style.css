@@ -29,7 +29,7 @@ aside {
     justify-content: center;
     height: 120px;
     width: 100%;
-    gap: 10px;
+    gap: 40px;
     background-color: #75757571;
 }
 
@@ -52,35 +52,30 @@ aside {
     background-color: #f5f5f5;
 }
 
-main {
-    width: 60%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #d4bc87e0;
-}
-
 section {
-    max-width: 800px;
+    width: 60%;
     margin: 0 auto;
-    padding: 20px;
+    background-color: #d4bc87e0;
 }
 
 .intro {
     text-align: justify;
-    margin-bottom: 20px;
-    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: medium;
+    padding: 20px;
+    font-family: calimero, sans-serif;
 }
 
 .form-container {
-    background-color: #f5f5f5;
+    background-color: #d4bc87e0;
     padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .form-row {
     display: flex;
-    gap: 10px;
+    gap: 40px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -90,3 +85,44 @@ section {
     flex-direction: column;
     gap: 5px;
 }
+
+.form-group label {
+    font-weight: medium;
+    font-family: verdana;
+    font-size: 14px;
+}
+
+.form-group input {
+    padding: 8px 16px;
+    border: 1px solid #5e5c5c;
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+
+input:user-invalid {
+    border-color: red;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.footer button {
+    background-color: rgb(233, 120, 14);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.footer p {
+    text-align: left;
+    font-size: 16px;
+    color: #333;
+}
+
