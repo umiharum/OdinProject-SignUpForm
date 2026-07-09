@@ -20,17 +20,15 @@
         </aside>
 
         <!-- Right primary content -->
-        
+        <main>
             <section>
                 <div class="intro">
-                    <p>This is the easiest way to manage your items.<br> 
-                        Sign up now to get started.
-                    </p>
+                    <p>This is the easiest way to manage your items. Sign up now to get started.</p>
                     <p><b>You <em>know</em> you want to</b></p>
                 </div>
                 <div class="form-container">
-                    <p>Let's do this!</p>
-                    <form action="" method="post">
+                    <h3>Let's do this!</h3>
+                    <form id="signup-form" action="" method="post" novalidate>
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="first-name">First Name</label>
@@ -61,14 +59,15 @@
                                 <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
                             </div>
                         </div>
+
+                        <div class="footer">
+                            <button type="submit">Create Account</button>
+                            <p>Already have an account? <a href="#">Log in</a></p>
+                        </div>
                     </form>
                 </div>
-                <div class="footer">
-                        <button type="submit">Create Account</button>
-                        <p>Already have an account? <a href="#">Log in</a></p>
-                    </div>
             </section>
-        
+        </main>
     </body>
 </html>
 
